@@ -34,11 +34,10 @@ if a == "1":
     for word in wrd:
         pyautogui.typewrite(word)
         pyautogui.press("enter")
-        print("Finished")
 else:
     if a == "2":
         wrd = open("baby", 'r')
         for word in wrd:
             pyautogui.typewrite(word)
             pyautogui.press("enter")
-            print("Finished")
+print("Finished")
