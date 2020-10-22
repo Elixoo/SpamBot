@@ -26,15 +26,19 @@ print("2")
 time.sleep(1)
 print("1")
 time.sleep(1)
+print("Spamming...")
+
 
 if a == "1":
     wrd = open("bees", 'r')
     for word in wrd:
         pyautogui.typewrite(word)
         pyautogui.press("enter")
+        print("Finished")
 else:
     if a == "2":
         wrd = open("baby", 'r')
         for word in wrd:
             pyautogui.typewrite(word)
             pyautogui.press("enter")
+            print("Finished")
